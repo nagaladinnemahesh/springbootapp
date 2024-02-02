@@ -1,0 +1,22 @@
+    ClassNotFoundException: 
+    Initially, you encountered a ClassNotFoundException when trying to run your Spring Boot application. This error indicates
+    that the JVM couldn't find a class that the application depends on. It can happen due to various reasons, such as missing 
+    dependencies, incorrect classpath settings, or errors in the application code.
+
+    Package Name Mismatch: 
+    You noticed that the package name specified in your Java file (com.mahesh) didn't match the directory structure (com/mahesh).
+    This discrepancy might not have caused the ClassNotFoundException directly, but it's a good practice to ensure consistency
+    between package names and directory structures.
+
+    Building and Running Docker Image: 
+    After resolving the classpath issue, you attempted to build and run a Docker image for your application. While the image was
+    successfully created and started, you encountered issues when accessing the application, suggesting potential problems with
+    the container configuration or port mapping.
+
+    Troubleshooting Docker Container: 
+    Further investigation revealed that the Docker container was running, but you couldn't access the application as expected.
+    This might indicate issues with networking, container configuration, or the application itself.
+
+    Git Repository Creation: 
+    You also asked about creating a Git repository in Linux and setting up a remote repository. This task wasn't directly related
+    to the Spring Boot application issues but was part of your workflow for managing the application's source code.
